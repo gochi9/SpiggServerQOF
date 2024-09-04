@@ -1,0 +1,17 @@
+name: SpiggServerQOF
+main: com.deadshotmdf.SpiggServerQOF.SSQOF
+author: DeadshotMDF
+version: '1.0'
+api-version: '1.20'
+softdepend: [Essentials]
+commands:
+  strash:
+    description: Opens a trash inventory that will clear as soon as it`s closed. The items cannot be recovered
+  sautotool:
+    description: Enables/Disables the auto-tool mode which tries to select the best tool in your hotbar
+  sfullbright:
+    description: Gives the player infinite night vision without particles
+  ssqof:
+    description: Reloads this plugin`s config
+#  schatsettings:
+#    description: Opens a GUI that manages the current chat status for the selected target

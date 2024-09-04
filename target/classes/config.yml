@@ -1,0 +1,98 @@
+
+reloadConfig: '&aYou have reloaded the config'
+noPermission: '&4You do not have the permission to execute this command'
+
+###################
+#### AUTO TOOL ####
+###################
+itemCannotBreak: '&c⚠ &eYour current tool is about to break! Please switch it, or disable auto-tool mode.'
+itemWarnMessage: '&c⚠ &eBe careful! The item &b{item} &eis at &b{percentage}% &edurability.'
+toggleAutoTool: '&aAuto tool mode is now {status}'
+
+settingsGUIInventoryName: '&bAuto tool settings'
+settingsGUISize: 18
+settingsGUI:
+  WARN_TOOL_LOW_DURABILITY_MESSAGE:
+    slot: 1
+    displayName: '&eLow Durability Warning'
+    lore:
+      - '&7Receive a &cnotification &7when an item reaches &625%, 10%, 5%, &7and &61% &7durability.'
+      - '&7It is &crecommended &7to stop using the item at &c5% &7durability.'
+      - '&7Notifications apply to all damageable items, including tools, elytra, armor, etc.'
+      - '&7Current Status: &e{status}'
+  SELECT_BEST_TOOL:
+    slot: 3
+    displayName: '&eBest Tool Selector'
+    lore:
+      - '&7Automatically selects the &cbest tool &7from your &chotbar &7only.'
+      - '&7Tools with only &cone durability &7left will not be selected.'
+      - '&7Current Status: &e{status}'
+  PREVENT_TOOL_BREAK:
+    slot: 5
+    displayName: '&eTool Break Prevention'
+    lore:
+      - '&7Prevents you from &caccidentally breaking &7your current tool.'
+      - '&7Works only for tools'
+      - '&7Current Status: &e{status}'
+  AUTO_BLOCK_REFILL:
+    slot: 7
+    displayName: '&eBlock Refill'
+    lore:
+      - '&7Automatically refills your hand with a &csimilar block &7when you run out.'
+      - '&7Searches your &centire inventory &7for matching blocks.'
+      - '&7Named blocks will not be selected'
+      - '&7Current Status: &e{status}'
+  AUTO_CROP_PLACE:
+    slot: 11
+    displayName: '&eAuto Crop Planting'
+    lore:
+      - '&7Automatically &creplants crops &7from it`s drop.'
+      - '&7Only works if the crop drop includes &cmore than one seed.'
+      - '&7Current Status: &e{status}'
+  SAVE_AUTO_TOOL_STATUS_ON_REJOIN:
+    slot: 15
+    displayName: '&eAuto Tool Status Save'
+    lore:
+      - '&7Saves the status of your auto tool mode when you &cleave.'
+      - '&7Reactivates auto tool mode upon &crejoining &7if it was active when you left.'
+      - '&7Current Status: &e{status}'
+  SUGGEST_MORE:
+    slot: 13
+    displayName: '&cShare Your Suggestions'
+    lore:
+      - '&7Have ideas to &cimprove the plugin &7or suggestions for new features?'
+      - '&7Share them on our &cDiscord channel &7#🏅-mc-questions-and-suggestions.'
+      - '&7You can also &cDM a staff member &7directly.'
+
+
+################
+#### THRASH ####
+################
+thrashInventoryName: '&cThrash cannot be recovered'
+
+#####################
+#### FULL BRIGHT ####
+#####################
+turnOnFullBright: '&6☀ &aYou have enabled &bFullBright&l!'
+turnOffFullBright: '&f🌙 &aYou have disabled &bFullBright&l.'
+
+#######################
+#### GENERAL FIXES ####
+#######################
+
+# Only the player who activated the ender crystal will get damaged if this setting is enabled.
+stopEnderCrystalDamageToOthers: true
+
+########################
+#### BLOCK MESSAGES ####
+########################
+
+inventoryName: 'Chat settings for {name}'
+chatStatus: '&fChat messages from {name} are currently {status}'
+privateStatus: '&fPrivate messages from {name} are currently {status}'
+messageFailed: '&cYour message could not be sent.'
+
+blockCmdUsage: '&cUse: /smanageblocks [playerName]'
+cannotExecuteYet: '&cYou cannot execute this command at the moment. Please try again in a few seconds.'
+neverPlayed: '&cPlayer {player} never played on this server.'
+blockCmdError: '&cAn error occurred while trying to execute this command. Please try again in a few seconds.'
